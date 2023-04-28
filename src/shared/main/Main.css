@@ -1,0 +1,36 @@
+.item{
+    
+    object-fit: cover;
+}
+.item-1 img{
+    height: 100%;
+    width: 100%;
+
+}
+.item-2{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+
+
+    .item {
+        min-width: 100vw !important;
+        max-width: 100vw !important;
+        height: 100%;
+
+    }
+    .item-1 img{
+
+
+    }
+    
+    
+}

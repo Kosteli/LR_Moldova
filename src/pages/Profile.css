@@ -1,0 +1,501 @@
+body{
+    width: 100%;
+    height: 100%;
+    
+    }
+
+
+
+
+
+
+
+    
+
+
+
+
+
+/* ------------------ MAIN ------------------- */
+main{
+    background: #E6E7E6;
+border-radius: 10px;
+width: 1200px;
+margin-left: 340px;
+}
+.my_profil h1{
+    font-family: 'Glacial Indifference';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+padding-top: 25px;
+margin-top: 25px;
+align-items: center;
+text-align: center;
+
+color: #4E5C46;
+}
+.profil_info{
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+.profil_info img{
+    width: 200px;
+    height: 200px;
+}
+.profil_info span{
+    font-family: 'Glacial Indifference';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+
+color: #4E5C46;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .tabs {
+        margin-top: 53px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        background: #E6E7E6;
+        gap: 53px;
+      }
+      .tabs .line {
+        position: absolute;
+  
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 6px;
+        border-radius: 15px;
+        background: #4E5C46;
+        transition: all 0.2s ease;
+      }
+      .tab-item {
+        min-width: 80px;
+        padding: 16px 20px 11px 20px;
+        font-size: 20px;
+        text-align: center;
+
+        
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom: 5px solid transparent;
+        opacity: 0.6;
+        cursor: pointer;
+        transition: all 0.5s ease;
+      }
+      .tab-icon {
+        font-size: 24px;
+        width: 32px;
+        position: relative;
+        top: 2px;
+      }
+      .tab-item:hover {
+        opacity: 1;
+
+      }
+      .tab-item.active {
+        opacity: 1;
+        position: relative;
+      
+      }
+      .tab-item.active::after {
+        content: '';
+        width: 100%;
+        height: 3px;
+        background-color: #A8BD9E;
+        position: absolute;
+        left: 0;
+        top: 10px;
+      }
+      .tab-content {
+        padding: 28px 0;
+        margin-left: 63px;
+      }
+      .tab-pane {
+        color: #333;
+        display: none;
+      }
+      .tab-pane.active {
+        display: block;
+      }
+      .tab-pane h2 {
+        font-size: 24px;
+        margin-bottom: 8px;
+      }
+      
+
+      .tap_zag {
+        display: flex;
+        gap: 5px;
+      }
+      .tap_pref {
+        width: 4px;
+        height: 30px;
+        background: #A8BD9E;
+      }
+      .tap_zag{
+        font-family: 'Glacial Indifference';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        color: #4E5C46;
+      }
+
+      .tab_input{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+
+      }
+      .tab_input input{
+        background: #A8BD9E;
+        border-radius: 10px;
+        width: 660px;
+        height: 35px;
+      }
+      .tab_input span{
+        font-family: 'Glacial Indifference';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #636363;
+
+      }
+      .tab_bottom{
+        margin-top: 40px;
+        margin-left: 240px;
+        background: #4E5C46;
+border-radius: 3px;
+width: 140px;
+height: 44px;
+font-family: 'Glacial Indifference';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+padding-top: 7px;
+
+color: #FFFFFF;
+
+      }
+
+      .tap_shop{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+      }
+
+
+
+    .tab_bottom2{
+
+      font-family: 'Glacial Indifference';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      padding-top: 15px;
+      margin-left: 454px;
+      margin-top: 83px;
+      align-items: center;
+      text-align: center;
+      background: #4E5C46;
+border-radius: 3px;
+width: 232px;
+height: 70px;
+      color: #FFFFFF;
+
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 500px){
+      main{
+        background: #E6E7E6;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0 10px;
+    }
+    .my_profil h1{
+        font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    padding-top: 25px;
+    margin-top: 25px;
+    align-items: center;
+    text-align: center;
+    
+    color: #4E5C46;
+    }
+    .profil_info{
+        margin-top: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+    }
+    .profil_info img{
+        width: 200px;
+        height: 200px;
+    }
+    .profil_info span{
+        font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    
+    color: #4E5C46;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          .tabs {
+            margin-top: 53px;
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            background: #E6E7E6;
+            gap: 53px;
+            overflow-x: auto;
+          }
+          .tabs .line {
+            position: absolute;
+      
+            left: 0;
+            top: 0;
+            width: 0;
+            height: 6px;
+            border-radius: 15px;
+            background: #4E5C46;
+            transition: all 0.2s ease;
+          }
+          .tab-item {
+            min-width: 80px;
+            padding: 16px 20px 11px 20px;
+            font-size: 20px;
+            text-align: center;
+    
+            
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom: 5px solid transparent;
+            opacity: 0.6;
+            cursor: pointer;
+            transition: all 0.5s ease;
+          }
+          .tab-icon {
+            font-size: 24px;
+            width: 32px;
+            position: relative;
+            top: 2px;
+          }
+          .tab-item:hover {
+            opacity: 1;
+    
+          }
+          .tab-item.active {
+            opacity: 1;
+          }
+          .tab-content {
+            padding: 28px 0;
+            margin-left: 63px;
+          }
+          .tab-pane {
+            color: #333;
+            display: none;
+            margin-left: -45px;
+          }
+          .tab-pane.active {
+            display: block;
+          }
+          .tab-pane h2 {
+            font-size: 24px;
+            margin-bottom: 8px;
+          }
+          
+    
+          .tap_zag {
+            display: flex;
+            gap: 5px;
+            margin-left: 0px;
+          }
+          .tap_pref {
+            width: 4px;
+            height: 30px;
+            background: #A8BD9E;
+          }
+          .tap_zag{
+            font-family: 'Glacial Indifference';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36px;
+            color: #4E5C46;
+          }
+    
+          .tab_input{
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+    
+          }
+          .tab_input input{
+            background: #A8BD9E;
+            border-radius: 10px;
+            width: 90%;
+            
+            height: 35px;
+          }
+          .tab_input span{
+            font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    
+    color: #636363;
+    
+          }
+          .tab_bottom{
+            margin-top: 40px;
+            margin-left: 0 ;
+            background: #4E5C46;
+            border-radius: 3px;
+            width: 140px;
+            height: 44px;
+            font-family: 'Glacial Indifference';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            padding-top: 7px;
+            
+    color: #FFFFFF;
+    
+          }
+    
+          .tap_shop{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            margin-left: -25px;
+          }
+    
+    
+    
+        .tab_bottom2{
+    
+          margin-top: 40px;
+          margin-left: 0 ;
+          background: #4E5C46;
+          border-radius: 3px;
+          width: 140px;
+          height: 44px;
+          font-family: 'Glacial Indifference';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          text-align: center;
+          padding-top: 7px;
+          
+  color: #FFFFFF;
+    
+        }
+        
+    
+    
+    }

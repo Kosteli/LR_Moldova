@@ -1,0 +1,146 @@
+.main_product {
+    margin-top: 67px;
+  
+  }
+  .product_text {
+  
+    font-family: 'Glacial Indifference';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 51px;
+  color: #A8BD9E;
+  
+  }
+  .product_text_p{
+    font-family: 'Glacial Indifference';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #666161;
+  }
+  
+  .text_HR {
+    width: 360px;
+    height: 0;
+    border: 2px solid #A8BD9E;
+    transform: rotate(-0.16deg);
+  
+  }
+  .product_tab {
+    gap: 25px;
+    font-family: 'Glacial Indifference';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 17px;
+  color: #000000;
+  
+  }
+  
+  .product_catalog {
+    padding: 0 130px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    height: 100%;
+    gap: 125px;
+    justify-content: center;
+  
+  }
+
+  
+  
+  
+
+
+  @media screen and (max-width: 500px){
+    .main_product {
+      
+    
+    }
+    .product_text {
+    
+      font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 51px;
+    color: #A8BD9E;
+    
+    }
+    .product_text_p{
+      font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #666161;
+    }
+    
+    .text_HR {
+      width: 360px;
+      height: 0;
+      border: 2px solid #A8BD9E;
+      transform: rotate(-0.16deg);
+    
+    }
+    .product_tab {
+      gap: 25px;
+      font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 17px;
+    color: #000000;
+    
+    }
+    
+    .product_catalog {
+      padding: 0 130px;
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      
+      align-items: center;
+      height: 100%;
+      gap: 55px;
+      justify-content: center;
+    
+    }
+    .product_catalog img{
+      
+      
+    }
+  }
