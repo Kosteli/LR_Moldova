@@ -4,7 +4,7 @@ import './Carousel.css'
 
 
 
-const PAGE_WIDTH = 1340
+const PAGE_WIDTH = window.innerWidth
 
 export const Carousel = ({ children }) => {
   const [pages, setPages] = useState([])

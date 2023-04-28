@@ -14,8 +14,8 @@ export default function Main() {
 
        <Carousel>
           <div className='item item-1'> <img src= {baner1} alt="#"/></div>
-          <div className='item item-2'> Item 2</div>
-          <div className='item item-3'> Item 3</div>
+          <div className='item item-2'> <img src= {baner1} alt="#"/></div>
+          <div className='item item-3'> <img src= {baner1} alt="#"/></div>
         </Carousel>
         <Advertising/>
         <Product/>
